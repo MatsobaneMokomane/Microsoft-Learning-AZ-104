@@ -3,3 +3,6 @@ $scope = (Get-AzRoleAssignment -RoleDefinitionName 'Support Request Contributor 
 Remove-AzRoleAssignment -ObjectId 'ae3f6f65-a2e3-4979-b07f-1a375044ca4c' -RoleDefinitionName 'Support Request Contributor (Custom)' -Scope $scope
 
 Remove-AzRoleDefinition -Name 'Support Request Contributor (Custom)' -Force
+
+#################
+//cs210032000be41232a.file.core.windows.net/cloudshell   (..)  /usr/csuser/clouddrive
